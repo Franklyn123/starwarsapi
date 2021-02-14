@@ -9,7 +9,7 @@ npm install
 ```
 
 
-## API
+## API Local Endpoint dev
 
 ### People
 
@@ -23,6 +23,8 @@ npm install
   http://localhost:3000/dev/personas/1
   ```
 
+### Films
+
 2. peliculas
 
   ```bash
@@ -31,4 +33,30 @@ npm install
 
   ```bash
   http://localhost:3000/dev/peliculas/1
+  ```
+
+## API Remote Endpoint dev
+
+### People
+
+1. personas
+
+  ```bash
+  https://xa4lrnn7c8.execute-api.us-east-1.amazonaws.com/dev/personas
+  ```
+
+  ```bash
+  https://xa4lrnn7c8.execute-api.us-east-1.amazonaws.com/dev/personas/1
+  ```
+
+### Films
+
+2. peliculas
+
+  ```bash
+  https://xa4lrnn7c8.execute-api.us-east-1.amazonaws.com/dev/peliculas
+  ```
+
+  ```bash
+  https://xa4lrnn7c8.execute-api.us-east-1.amazonaws.com/dev/peliculas/1
   ```
